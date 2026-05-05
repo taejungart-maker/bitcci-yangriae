@@ -43,7 +43,7 @@ export const exhibition: ExhibitionData = {
   opening: "오전 10:00 ~ 오후 7:00",
   organizer: "(주최/기획 — 추후 업데이트)",
   organizerContact: "yangleeai@naver.com",
-  poster: "artworks/13.jpg",
+  poster: "cover.jpg",
 
   foreword: `숲을 거닐다보면 가끔 작고 예쁜 것들과 마주치곤 한다.
 아침 이슬을 영롱하게 머금은 거미줄, 이름 모를 곤충이 벗어 놓고 간 하얀 껍데기 같은.
