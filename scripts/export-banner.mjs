@@ -26,7 +26,7 @@ const SIZES = {
   print: { width: 7500, height: 3839, suffix: '7500x3839_150dpi' },
 };
 
-const URL = 'http://localhost:5174/bitcci-kimdongkwi/#banner';
+const URL = 'http://localhost:5173/bitcci-yangriae/#banner';
 
 async function captureBanner() {
   console.log('🎨 현수막 PNG export 시작...\n');

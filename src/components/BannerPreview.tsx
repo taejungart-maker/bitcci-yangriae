@@ -25,9 +25,9 @@ export default function BannerPreview() {
         }}
         className="relative bg-black overflow-hidden shadow-2xl"
       >
-        {/* 배경 작품 이미지 */}
+        {/* 배경 작품 이미지 — 커버와 동일 (knitting the light) */}
         <img
-          src={`${import.meta.env.BASE_URL}artworks/1.jpg`}
+          src={`${import.meta.env.BASE_URL}${exhibition.poster}`}
           alt={exhibition.title}
           className="absolute inset-0 w-full h-full object-cover"
         />
