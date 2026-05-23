@@ -135,6 +135,157 @@ export const exhibition: ExhibitionData = {
       year: "2026",
       image: "artworks2026/7.jpg",
       description: ""
+    },
+    // ─── 회고작 (2005~2025) ───
+    {
+      id: 8,
+      artist: "양리애",
+      title: "외출",
+      material: "—",
+      size: "—",
+      year: "2005",
+      image: "artworks/1.jpg",
+      description: ""
+    },
+    {
+      id: 9,
+      artist: "양리애",
+      title: "외출",
+      material: "—",
+      size: "—",
+      year: "2005",
+      image: "artworks/2.jpg",
+      description: ""
+    },
+    {
+      id: 10,
+      artist: "양리애",
+      title: "집 + 노래 = 이야기",
+      material: "—",
+      size: "—",
+      year: "2015",
+      image: "artworks/3.jpg",
+      description: ""
+    },
+    {
+      id: 11,
+      artist: "양리애",
+      title: "마주치는 나",
+      material: "—",
+      size: "—",
+      year: "2018",
+      image: "artworks/4.jpg",
+      description: ""
+    },
+    {
+      id: 12,
+      artist: "양리애",
+      title: "상상",
+      material: "—",
+      size: "—",
+      year: "2019",
+      image: "artworks/5.jpg",
+      description: ""
+    },
+    {
+      id: 13,
+      artist: "양리애",
+      title: "상상",
+      material: "—",
+      size: "—",
+      year: "2019",
+      image: "artworks/6.jpg",
+      description: ""
+    },
+    {
+      id: 14,
+      artist: "양리애",
+      title: "작은 씨앗을 뿌리겠어요",
+      material: "—",
+      size: "—",
+      year: "2019",
+      image: "artworks/7.jpg",
+      description: ""
+    },
+    {
+      id: 15,
+      artist: "양리애",
+      title: "작은 씨앗을 뿌리겠어요",
+      material: "—",
+      size: "—",
+      year: "2019",
+      image: "artworks/8.jpg",
+      description: ""
+    },
+    {
+      id: 16,
+      artist: "양리애",
+      title: "꿈을 품은 씨앗",
+      material: "—",
+      size: "—",
+      year: "2020",
+      image: "artworks/9.jpg",
+      description: ""
+    },
+    {
+      id: 17,
+      artist: "양리애",
+      title: "빙글빙글",
+      material: "창원조각비엔날레 출품작",
+      size: "—",
+      year: "2020",
+      image: "artworks/10.jpg",
+      description: ""
+    },
+    {
+      id: 18,
+      artist: "양리애",
+      title: "빙글빙글",
+      material: "창원조각비엔날레 출품작",
+      size: "—",
+      year: "2020",
+      image: "artworks/11.jpg",
+      description: ""
+    },
+    {
+      id: 19,
+      artist: "양리애",
+      title: "빙글빙글",
+      material: "창원조각비엔날레 출품작",
+      size: "—",
+      year: "2020",
+      image: "artworks/12.jpg",
+      description: ""
+    },
+    {
+      id: 20,
+      artist: "양리애",
+      title: "knitting the light",
+      material: "구리실, 뜨개질 설치",
+      size: "—",
+      year: "2023",
+      image: "artworks/13.jpg",
+      description: ""
+    },
+    {
+      id: 21,
+      artist: "양리애",
+      title: "knitting the light",
+      material: "구리실, 뜨개질 설치",
+      size: "—",
+      year: "2023",
+      image: "artworks/14.jpg",
+      description: ""
+    },
+    {
+      id: 22,
+      artist: "양리애",
+      title: "sleep",
+      material: "—",
+      size: "—",
+      year: "2025",
+      image: "artworks/15.jpg",
+      description: ""
     }
   ]
 };
