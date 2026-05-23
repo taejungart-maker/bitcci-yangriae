@@ -2,8 +2,9 @@ import { motion } from 'motion/react';
 
 const BASE = import.meta.env.BASE_URL;
 
-// public/sketches/ 아래 파일명 매핑 (2.jpg ~ 18.jpg)
-const PHOTO_IDS = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
+// public/sketches/ 아래 파일명 매핑
+// 첫 2장(2, 3 — 핑크 네온 작품)을 맨 뒤로 이동
+const PHOTO_IDS = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 2, 3];
 
 export default function ArtistSketchesPage() {
   return (
