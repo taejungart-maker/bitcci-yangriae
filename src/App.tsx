@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect, useMemo } from 'react';
 import { GlobalErrorBoundary } from './components/GlobalErrorBoundary';
 import CoverPage from './components/CoverPage';
+import ArtistSketchesPage from './components/ArtistSketchesPage';
 import ArtistBioPage from './components/ArtistBioPage';
 import ArtistNotePage from './components/ArtistNotePage';
 import ArtistQuotePage from './components/ArtistQuotePage';
@@ -9,8 +10,8 @@ import EndingPage from './components/EndingPage';
 import BannerPreview from './components/BannerPreview';
 import { exhibition } from './data/exhibition';
 
-// cover + artist bio + artist note + artist quote + artworks + ending
-const TOTAL_PAGES = 5 + exhibition.artworks.length;
+// cover + artist sketches + artist bio + artist note + artist quote + artworks + ending
+const TOTAL_PAGES = 6 + exhibition.artworks.length;
 
 export default function App() {
   // URL 해시로 시안 모드 분기
@@ -279,24 +280,29 @@ function AppContent() {
           {isVisible(0) && <CoverPage />}
         </div>
 
-        {/* Page 2: 작가 약력·전시·수상·경력 (통합) */}
+        {/* Page 2: 작가 스냅 — 작가의 순간 */}
         <div className="w-full h-full flex-shrink-0 flex items-center justify-center">
-          {isVisible(1) && <ArtistBioPage />}
+          {isVisible(1) && <ArtistSketchesPage />}
         </div>
 
-        {/* Page 3: 작가 노트 */}
+        {/* Page 3: 작가 약력·전시·수상·경력 (통합) */}
         <div className="w-full h-full flex-shrink-0 flex items-center justify-center">
-          {isVisible(2) && <ArtistNotePage />}
+          {isVisible(2) && <ArtistBioPage />}
         </div>
 
-        {/* Page 4: 작가 시그니처 인용구 */}
+        {/* Page 4: 작가 노트 */}
         <div className="w-full h-full flex-shrink-0 flex items-center justify-center">
-          {isVisible(3) && <ArtistQuotePage />}
+          {isVisible(3) && <ArtistNotePage />}
+        </div>
+
+        {/* Page 5: 작가 시그니처 인용구 */}
+        <div className="w-full h-full flex-shrink-0 flex items-center justify-center">
+          {isVisible(4) && <ArtistQuotePage />}
         </div>
 
         {/* Artwork Pages */}
         {exhibition.artworks.map((artwork, index) => {
-          const pageIndex = index + 4;
+          const pageIndex = index + 5;
           // darkBg가 아닌 작품은 홀짝으로 녹색/보라색 배경 자동 배정
           const themed = {
             ...artwork,

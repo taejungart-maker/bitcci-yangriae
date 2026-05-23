@@ -29,3 +29,9 @@ dist-ssr
 
 # Exports (대용량 PNG/PDF 결과물 — 로컬에만 보관)
 exports/
+
+# 검증용 스크린샷 (재현 가능)
+_screenshots/
+
+# 사진 원본 백업 (최적화 전, 대용량)
+public/**/_originals/
