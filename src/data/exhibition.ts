@@ -286,6 +286,17 @@ export const exhibition: ExhibitionData = {
       year: "2025",
       image: "artworks/15.jpg",
       description: ""
-    }
+    },
+    // ─── 2026 추가 작품 (페이지 28~47) ───
+    ...Array.from({ length: 20 }, (_, i) => ({
+      id: 23 + i,
+      artist: "양리애",
+      title: "상상하는 무언가를 가지고 와서는 : 껍데기들",
+      material: "—",
+      size: "—",
+      year: "2026",
+      image: `artworks2026/${8 + i}.jpg`,
+      description: ""
+    }))
   ]
 };
