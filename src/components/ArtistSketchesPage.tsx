@@ -21,17 +21,11 @@ export default function ArtistSketchesPage() {
               transition={{ duration: 0.4 }}
             >
               <h1
-                className="text-2xl md:text-3xl font-light text-gray-800 mb-2 tracking-[0.25em]"
-                style={{ fontFamily: "'Noto Sans KR', sans-serif" }}
-              >
-                작가의 순간
-              </h1>
-              <p
-                className="text-[12px] tracking-[0.3em] text-gray-500"
+                className="text-xl md:text-2xl font-light text-gray-700 tracking-[0.35em]"
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
                 ARTIST&apos;S MOMENTS
-              </p>
+              </h1>
               <div className="w-12 h-[1px] bg-[#7c6aad]/40 mx-auto mt-5" />
             </motion.div>
           </header>
