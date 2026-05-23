@@ -83,7 +83,7 @@ export default function ArtworkPage({ artwork }: ArtworkPageProps) {
       >
         {/* 제목 (인용구 스타일 - Noto Serif italic, 강조) */}
         <p
-          className="text-[20px] md:text-[23px] leading-snug mb-2 whitespace-pre-line tracking-wide"
+          className="text-[20px] md:text-[23px] leading-snug mb-2 whitespace-pre-line tracking-wide break-keep"
           style={{
             fontFamily: "'Noto Serif', 'Noto Sans KR', serif",
             fontStyle: 'italic',
