@@ -287,16 +287,36 @@ export const exhibition: ExhibitionData = {
       image: "artworks/15.jpg",
       description: ""
     },
-    // ─── 2026 추가 작품 (페이지 28~47) ───
-    ...Array.from({ length: 20 }, (_, i) => ({
-      id: 23 + i,
+    // ─── 2026 추가 작품 (껍데기들 — 2차) ───
+    {
+      id: 23,
       artist: "양리애",
       title: "상상하는 무언가를 가지고 와서는 : 껍데기들",
       material: "—",
       size: "—",
       year: "2026",
-      image: `artworks2026/${8 + i}.jpg`,
+      image: "artworks2026/8.jpg",
       description: ""
-    }))
+    },
+    {
+      id: 24,
+      artist: "양리애",
+      title: "상상하는 무언가를 가지고 와서는 : 껍데기들",
+      material: "—",
+      size: "—",
+      year: "2026",
+      image: "artworks2026/9.jpg",
+      description: ""
+    },
+    {
+      id: 25,
+      artist: "양리애",
+      title: "상상하는 무언가를 가지고 와서는 : 껍데기들",
+      material: "—",
+      size: "—",
+      year: "2026",
+      image: "artworks2026/19.jpg",
+      description: ""
+    }
   ]
 };
